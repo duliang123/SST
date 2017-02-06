@@ -1,0 +1,54 @@
+/* login */
+.loginBg{
+    background: #8aa4af url("../img/login-bg.jpg") no-repeat fixed;
+}
+.form-login{
+    max-width: 330px;
+    margin: 150px auto;
+    padding: 15px 15px 0;
+    background: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.form-login .header{
+    margin: 0;
+    color: #fff;
+    position: relative;
+}
+.form-login .title{
+    /*font-family: Telugu MN;*/
+    font-size: 24px;
+    color: #fff;
+    position: absolute;
+    top: -80px;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+}
+.form-login .subtitle{
+	font-family: Telugu MN;
+    font-size: 18px;
+    color:#666;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.form-login .wrap {
+    padding: 0 20px 20px 20px;
+    position: relative;
+}
+.form-login .wrap input[type="text"], .form-login .wrap input[type="password"] {
+    /*
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 1px solid #eaeaec;
+    background: #eaeaec;
+    box-shadow: none;
+    */
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+.help-block {
+    color:#a94442;
+}

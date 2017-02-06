@@ -1,0 +1,276 @@
+/*===================================================*\ 
+ * king-main-header 导航条
+\*===================================================*/
+.king-main-header {
+  max-height: 100px;
+  z-index: 1030;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  position: fixed;
+  width: 100%;
+}
+.king-main-header  .nav > li > a:hover, .nav > li > a:focus{
+    background: #fafafa;
+}
+.king-main-header > .navbar {
+  -webkit-transition: margin-left 0.3s ease-in-out;
+  -o-transition: margin-left 0.3s ease-in-out;
+  transition: margin-left 0.3s ease-in-out;
+  margin-bottom: 0;
+  margin-left: 230px;
+  border: none;
+  min-height: 50px;
+  border-radius: 0;
+}
+.layout-top-nav .king-main-header > .navbar {
+  margin-left: 0!important;
+}
+.king-main-header #navbar-search-input {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: transparent;
+}
+.king-main-header #navbar-search-input:focus,
+.king-main-header #navbar-search-input:active {
+  border-color: rgba(0, 0, 0, 0.1) !important;
+  background: rgba(255, 255, 255, 0.9);
+}
+.king-main-header #navbar-search-input::-moz-placeholder {
+  color: #ccc;
+  opacity: 1;
+}
+.king-main-header #navbar-search-input:-ms-input-placeholder {
+  color: #ccc;
+}
+.king-main-header #navbar-search-input::-webkit-input-placeholder {
+  color: #ccc;
+}
+.king-main-header .navbar-custom-menu,
+.king-main-header .navbar-right {
+  float: right;
+}
+.king-main-header .sidebar-toggle {
+  float: left;
+  background-color: transparent;
+  background-image: none;
+  padding: 15px 15px;
+  font-family: fontAwesome;
+}
+.king-main-header .sidebar-toggle:before {
+  content: "\f0c9";
+}
+.king-main-header .sidebar-toggle:hover {
+  color: #fff;
+}
+.king-main-header .sidebar-toggle:focus,
+.king-main-header .sidebar-toggle:active {
+  background: transparent;
+}
+.king-main-header .sidebar-toggle .icon-bar {
+  display: none;
+}
+.king-main-header .navbar .nav > li.user > a > .fa,
+.king-main-header .navbar .nav > li.user > a > .glyphicon,
+.king-main-header .navbar .nav > li.user > a > .ion {
+  margin-right: 5px;
+}
+.king-main-header .navbar .nav > li > a > .label {
+  position: absolute;
+  top: 9px;
+  right: 7px;
+  text-align: center;
+  font-size: 9px;
+  padding: 2px 3px;
+  line-height: .9;
+}
+.king-main-header .logo {
+  -webkit-transition: width 0.3s ease-in-out;
+  -o-transition: width 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out;
+  display: block;
+  float: left;
+  height: 50px;
+  font-size: 20px;
+  line-height: 50px;
+  text-align: center;
+  font-family: "微软雅黑";
+  padding: 0 15px;
+  font-weight: bold;
+  overflow: hidden;
+  font-size: 18px; 
+  color: #333;
+  text-align: left;
+
+}
+.king-main-header .logo .logo-lg {
+  display: inline-block;
+  vertical-align: middle;
+}
+.king-main-header .logo .logo-mini {
+  display: none;
+}
+.king-main-header .navbar-brand {
+  color: #fff;
+}
+.content-header {
+  position: relative;
+  padding: 15px 15px 0 15px;
+}
+.content-header > h1 {
+  margin: 0;
+  font-size: 24px;
+}
+.content-header > h1 > small {
+  font-size: 15px;
+  display: inline-block;
+  padding-left: 4px;
+  font-weight: 300;
+}
+.content-header > .breadcrumb {
+  float: right;
+  background: transparent;
+  margin-top: 0px;
+  margin-bottom: 0;
+  font-size: 12px;
+  padding: 7px 5px;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  border-radius: 2px;
+}
+.content-header > .breadcrumb > li > a {
+  color: #444;
+  text-decoration: none;
+  display: inline-block;
+}
+.content-header > .breadcrumb > li > a > .fa,
+.content-header > .breadcrumb > li > a > .glyphicon,
+.content-header > .breadcrumb > li > a > .ion {
+  margin-right: 5px;
+}
+.content-header > .breadcrumb > li + li:before {
+  content: '>\00a0';
+}
+.navbar-toggle {
+  color: #fff;
+  border: 0;
+  margin: 0;
+  padding: 15px 15px;
+}
+.king-avatar a{
+    padding: 0 !important; 
+}
+.king-avatar img{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+.king-main-header a{
+    color: #555;
+}
+.king-main-header .dropdown-menu{
+    min-width: 100px;
+}
+.king-main-header .welcome-message{
+  font-size: 12px;
+  font-weight: normal;
+  margin-left: 10px;
+  color: #888;
+}
+.king-business-select{margin-top: 10px;}
+.king-business-title{font-weight: bold;}
+
+.king-exception-box h3 {
+    font-weight: normal;
+    margin: 26px 0;
+    color: #2b2c2d;
+}
+
+
+/*===================================================*\ 
+ * * * 左栏高度占满屏 右栏自适应
+\*===================================================*/
+.king-layout6-main{}
+.king-layout6-sidebar{position: fixed; top: 0; left: 0; margin-top: 51px; min-height: 100%; width: 230px; z-index: 810; bottom: 0;-webkit-transition: -webkit-transform 0.3s ease-in-out, width 0.3s ease-in-out; -moz-transition: -moz-transform 0.3s ease-in-out, width 0.3s ease-in-out; -o-transition: -o-transform 0.3s ease-in-out, width 0.3s ease-in-out; transition: transform 0.3s ease-in-out, width 0.3s ease-in-out;}
+.king-layout6-content{padding-top:60px; -webkit-transition: -webkit-transform 0.3s ease-in-out, margin 0.3s ease-in-out; -moz-transition: -moz-transform 0.3s ease-in-out, margin 0.3s ease-in-out; -o-transition: -o-transform 0.3s ease-in-out, margin 0.3s ease-in-out; transition: transform 0.3s ease-in-out, margin 0.3s ease-in-out; margin-left: 230px; z-index: 820;}
+.king-layout6-content{min-height: 100%; z-index: 800;}
+.king-content-wrapper{margin: 20px;}
+
+
+/*===================================================*\ 
+ * * * Sidebar theme4主题，左侧栏
+\*===================================================*/
+.king-sidebar{padding-bottom: 10px; background:#293038}
+.king-sidebar .user-panel{position: relative; width: 100%; padding: 10px; overflow: hidden;}
+.king-sidebar .user-panel:before,
+.king-sidebar .user-panel:after{content: " "; display: table;}
+.king-sidebar .user-panel:after{clear: both;}
+.king-sidebar .user-panel > .image > img{width: 100%; width: 48px; height: 48px;}
+.king-sidebar .user-panel > .info{padding: 5px 5px 5px 15px; line-height: 1; position: absolute; left: 55px;}
+.king-sidebar .user-panel > .info > p{font-weight: 600; margin-bottom: 9px;}
+.king-sidebar .user-panel > .info > a{text-decoration: none; padding-right: 5px; margin-top: 3px; font-size: 11px;}
+.king-sidebar .user-panel > .info > a > .fa,
+.king-sidebar .user-panel > .info > a > .ion,
+.king-sidebar .user-panel > .info > a > .glyphicon{margin-right: 3px;}
+.king-sidebar-menu{list-style: none; margin: 0; padding: 0;}
+.king-sidebar-menu > li{position: relative; margin: 0; padding: 0;}
+.king-sidebar-menu > li > a{padding: 17px 5px 17px 15px; display: block;}
+.king-sidebar-menu > li > a > .fa,
+.king-sidebar-menu > li > a > .glyphicon,
+.king-sidebar-menu > li > a > .ion{width: 20px;}
+.king-sidebar-menu > li .label,
+.king-sidebar-menu > li .badge{margin-top: 3px; margin-right: 5px;}
+.king-sidebar-menu li.header{padding: 15px 25px 15px 15px; font-size: 12px;}
+.king-sidebar-menu li > a > .fa-angle-right{width: auto; height: auto; padding: 0; margin-right: 10px; margin-top: 3px;}
+.king-sidebar-menu li.active > a > .fa-angle-right{-webkit-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -o-transform: rotate(-90deg); transform: rotate(-90deg);}
+.king-sidebar-menu li.active > .treeview-menu{display: block;}
+.king-sidebar-menu .treeview-menu{display: none; list-style: none; padding: 0; margin: 0; padding-left: 5px;}
+.king-sidebar-menu .treeview-menu .treeview-menu{padding-left: 20px;}
+.king-sidebar-menu .treeview-menu > li{margin: 0;}
+.king-sidebar-menu .treeview-menu > li > a{padding: 15px 5px 15px 15px; display: block; font-size: 14px;}
+.king-sidebar-menu .treeview-menu > li > a > .fa,
+.king-sidebar-menu .treeview-menu > li > a > .glyphicon,
+.king-sidebar-menu .treeview-menu > li > a > .ion{width: 20px;}
+.king-sidebar-menu .treeview-menu > li > a > .fa-angle-right,
+.king-sidebar-menu .treeview-menu > li > a > .fa-angle-down{width: auto;}
+.king-sidebar-menu>li>.treeview-menu{margin: 0 1px; background: #1C2026; border-left: 3px solid #4A9BFF; margin-left: 0px;}
+.king-sidebar .user-panel>.info, .user-panel>.info>a{color: #fff;}
+.king-sidebar-menu,
+.main-king-sidebar .user-panel,
+.king-sidebar-menu > li.header{white-space: nowrap!important; overflow: hidden;}
+.king-sidebar-menu:hover{overflow: visible;}
+.king-sidebar-form,
+.king-sidebar-menu > li.header{overflow: hidden; text-overflow: clip;}
+.king-sidebar-menu li > a{position: relative;}
+.king-sidebar-menu li > a > .pull-right{position: absolute; top: 50%; right: 10px; margin-top: -7px;}
+.king-sidebar-menu>li.header{color: #fff; background: #293038; border-bottom: 1px solid #1C2026;}
+.king-sidebar a{color: #b8c7ce;}
+.king-sidebar-menu>li:hover>a, .king-sidebar-menu>li.active>a{color: #fff; background: #1C2026; border-left-color: #4A9BFF;}
+.king-sidebar-menu>li>a{border-left: 3px solid transparent;}
+.king-sidebar .treeview-menu>li>a{color: #8aa4af;}
+.king-sidebar .bg-green{background-color: #00a65a !important;}
+.king-sidebar .bg-red{background-color: #dd4b39 !important;}
+.king-sidebar .treeview-menu>li.active>a, .king-sidebar .treeview-menu>li>a:hover{color: #fff;}
+
+.king-gray-slider{background: #eee; color: #666;}  
+.king-gray-slider .user-panel>.info, .user-panel>.info>a{color: #555;}  
+.king-gray-slider a{color: #666;}  
+.king-gray-slider .king-sidebar-menu>li.active>a{background: #fff; color: #555; border-color: #4A9BFF;}
+.king-gray-slider .king-sidebar-menu>li:hover>a{background: #fafafa; color: #555; border-color: #4A9BFF;}
+
+
+/*===================================================*\ 
+ * * * king-content-header 正文头部
+\*===================================================*/
+.king-content-header{position: relative; padding: 15px 15px 0 15px; }
+.king-content-header.king-info-header h1{padding-left: 15px; border-left: 3px solid #4A9BFF; }
+.king-content-header.king-info-header{background: #fff;  padding:0 0 25px 0; border-bottom: 1px solid #ddd;}
+.king-content-header.king-info-header > .breadcrumb{top: 0;}
+.king-content-header > h1{margin: 0; font-size: 24px;}
+.king-content-header > h1 > small{font-size: 15px; display: inline-block; padding-left: 4px; font-weight: 300;}
+.king-content-header > .breadcrumb{float: right; background: transparent; margin-top: 0px; margin-bottom: 0; font-size: 12px; padding: 7px 5px; position: absolute; top: 15px; right: 10px; border-radius: 2px;}
+.king-content-header > .breadcrumb > li > a{color: #444; text-decoration: none; display: inline-block;}
+.king-content-header > .breadcrumb > li > a > .fa,
+.king-content-header > .breadcrumb > li > a > .glyphicon,
+.king-content-header > .breadcrumb > li > a > .ion{margin-right: 5px;}
+.king-content-header > .breadcrumb > li + li:before{content: '>\00a0';}
+.king-content{min-height: 250px; padding: 15px; margin-right: auto; margin-left: auto; padding-left: 15px; padding-right: 15px;}
