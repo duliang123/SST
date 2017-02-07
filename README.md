@@ -1,6 +1,17 @@
 # SST运维作业平台
 
-<center>-- 基于GO语言和Saltstack开发的WEB运维平台 (author:duliang)</center>
+-- 基于GO语言和Saltstack开发的WEB运维平台 
+
+支持ssh和salt两种模式
+
+author:duliang
+
+
+### 说明:
+
+1. GO语言开发，无部署运行，OS版本CentOS 6+；
+
+2. 基于Saltstack，需要安装salt相关组件。
 
 
 ### 配置:
@@ -31,13 +42,6 @@
 
 ### 运行:
 cd SST && ./SST &
-
-
-### 说明:
-
-1. GO语言开发，无部署运行，OS版本CentOS 6+；
-
-2. 基于Saltstack，需要安装salt相关组件。
 
 
 **鸣谢：**
