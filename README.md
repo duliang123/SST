@@ -1,10 +1,6 @@
 # SST运维作业平台
 
--- 基于GO语言和Saltstack开发的WEB运维平台 
-
-支持ssh和salt两种模式
-
-author:duliang
+-- 基于GO语言和Saltstack开发的WEB运维平台 author:duliang
 
 
 ### 说明:
