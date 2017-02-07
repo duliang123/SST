@@ -17,6 +17,7 @@
 2. salt-apit配置
 
 修改文件: vi conf/app.conf 
+
     title = "SST运维作业平台"
     culture = "-- 简单 . 高效 . 自动化 --"
 
