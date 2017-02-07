@@ -12,12 +12,12 @@
 
 ### 配置:
 
-1 平台登陆账号配置
+1. 平台登陆账号配置
 
-2 salt-apit配置
+2. salt-apit配置
 
-
-    cat conf/app.conf 
+修改文件：
+    # cat conf/app.conf 
     title = "SST运维作业平台"
     culture = "-- 简单 . 高效 . 自动化 --"
 
