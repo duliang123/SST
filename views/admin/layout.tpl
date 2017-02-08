@@ -56,7 +56,7 @@
                 <span class="caret"></span>
               </a>
               <ul aria-labelledby="drop4" class="dropdown-menu" id="menu1">
-                <li><a href="javascript:;" id="menu1-instruction">平台介绍</a></li>
+                <li><a href="https://github.com/duliang123/SST" id="menu1-instruction">平台介绍</a></li>
                 <li><a href="/loginout" id="menu1-logout">注销</a></li>
               </ul>
             </li>  
@@ -96,6 +96,70 @@
                 <li><a href="/salt/deploy"><i class="fa"></i>自动部署应用</a></li>
               </ul>
             </li>
+<!--
+            <li class="treeview">
+              <a href="#">
+                <i class="fa fa-list-alt"></i>
+                <span>DB监控</span>
+                <span class="fa fa-angle-right pull-right"></span>
+              </a>
+              <ul class="treeview-menu" style="background: #1C2026;">
+                <li><a href="/mysql/"><i class="fa"></i>参数设置</a></li>
+                <li><a href="/mysql/"><i class="fa"></i>MySQL实例管理</a></li>
+                <li><a href="/mysql/"><i class="fa"></i>Redis实例管理</a></li>
+                <li><a href="/mysql/"><i class="fa"></i>监控MySQL实例</a></li> 
+                <li><a href="/mysql/"><i class="fa"></i>--| 健康监控</a></li>
+                <li><a href="/mysql/"><i class="fa"></i>--| 资源监控</a></li> 
+              </ul>
+            </li>
+-->
+            <li class="treeview">
+              <a href="#">
+                <i class="fa fa-calendar-o"></i>
+                <span>内部管理</span>
+                <span class="fa fa-angle-right pull-right"></span>
+              </a>
+              <ul class="treeview-menu" style="background: #1C2026;">
+                <li><a href="/redis/"><i class="fa"></i>域名PING</a></li>
+                
+              </ul>
+            </li>
+<!--
+            <li class="treeview">
+              <a href="#">
+                <i class="fa fa-briefcase"></i>
+                <span>工单管理</span>
+                <span class="fa fa-angle-right pull-right"></span>
+              </a>
+              <ul class="treeview-menu" style="background: #1C2026;">
+                <li><a href="/index"><i class="fa"></i>新建工单</a></li>
+                <li><a href="/index"><i class="fa"></i>工单列表</a></li>
+              </ul>
+            </li>
+            <li class="treeview">
+              <a href="#">
+                <i class="fa fa-list-alt"></i>
+                <span>CMDB资源</span>
+                <span class="fa fa-angle-right pull-right"></span>
+              </a>
+              <ul class="treeview-menu" style="background: #1C2026;">
+                <li><a href="/index"><i class="fa"></i>物理服务器</a></li>
+                <li><a href="/index"><i class="fa"></i>云服务器</a></li>
+                <li><a href="/index"><i class="fa"></i>VPS</a></li>
+              </ul>
+            </li>
+            <li class="treeview">
+              <a href="#">
+                <i class="fa fa-list-alt"></i>
+                <span>配置中心</span>
+                <span class="fa fa-angle-right pull-right"></span>
+              </a>
+              <ul class="treeview-menu" style="background: #1C2026;">
+                <li><a href="/index"><i class="fa"></i>脚本管理</a></li>
+                <li><a href="/index"><i class="fa"></i>接口服务</a></li>
+              </ul>
+            </li>
+-->
           </ul>
         </section>
       </div>
