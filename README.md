@@ -20,22 +20,22 @@
 
 修改文件: vi conf/app.conf 
 
-    title = "SST运维作业平台"
-    culture = "-- 简单 . 高效 . 自动化 --"
+    title    = "SST运维作业平台"
+    culture  = "-- 简单 . 高效 . 自动化 --"
 
-    appname = SST
+    appname  = SST
     httpport = 8080
-    runmode = dev
+    runmode  = dev
 
     sessionon = true
 
-    loginuser = duliang123 #平台Web登陆账号
-    loginpasswd = duliang  #平台登陆密码 
+    loginuser   = duliang123 #平台Web登陆账号
+    loginpasswd = 123456  #平台登陆密码 
 
 
     salt_url      = https://127.0.0.1:8000/login #salt-api登陆地址
     salt_username = salt_u_duliang
-    salt_password = DLpasswd
+    salt_password = DL@!(*$abc
     salt_api_url  = https://127.0.0.1:8000       #salt-api数据GET|POST地址
 
 ### 运行:
@@ -43,7 +43,7 @@ cd SST && ./SST &
 
 
 **鸣谢：**
-雨落寒冰(北京) 曦晨(苏州)
+雨落寒冰(北京) 曦晨(苏州) lock(上海)
 
 
 ![image](https://github.com/duliang123/SST/blob/master/screenshot/screenshot.jpg)

@@ -112,7 +112,7 @@
                 <li><a href="/mysql/"><i class="fa"></i>--| 资源监控</a></li> 
               </ul>
             </li>
--->
+
             <li class="treeview">
               <a href="#">
                 <i class="fa fa-calendar-o"></i>
@@ -124,6 +124,7 @@
                 
               </ul>
             </li>
+-->
 <!--
             <li class="treeview">
               <a href="#">
