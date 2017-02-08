@@ -30,7 +30,7 @@
     sessionon = true
 
     loginuser   = duliang123 #平台Web登陆账号
-    loginpasswd = 123456  #平台登陆密码 
+    loginpasswd = 123456     #平台登陆密码 
 
 
     salt_url      = https://127.0.0.1:8000/login #salt-api登陆地址
