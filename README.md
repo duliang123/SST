@@ -45,7 +45,7 @@ cd SST && ./SST &
 **鸣谢：**
 雨落寒冰(北京) 曦晨(苏州) lock(上海)
 
-
+![image](https://github.com/duliang123/SST/blob/master/screenshot/screenshot1.jpg)
 ![image](https://github.com/duliang123/SST/blob/master/screenshot/screenshot.jpg)
 ![image](https://github.com/duliang123/SST/blob/master/screenshot/screenshot2.jpg)
 ![image](https://github.com/duliang123/SST/blob/master/screenshot/screenshot3.jpg)
