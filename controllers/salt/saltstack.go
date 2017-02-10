@@ -152,7 +152,7 @@ func (this *KeyListController) Get() {
     client := &http.Client{Transport: tr}
     resp, err := client.Do(req)
     if err != nil {
-        panic(err)
+        fmt.Println(err)
     }
     defer resp.Body.Close()
     body, _ := ioutil.ReadAll(resp.Body)
@@ -160,7 +160,7 @@ func (this *KeyListController) Get() {
 
     js, err := simplejson.NewJson(body)
     if err != nil {
-        panic(err.Error())
+        fmt.Println(err)
     }
     fmt.Println(js)
     pjs         := js.Get("return").GetIndex(0).Get("data").Get("return").Get("minions").MustStringArray()
