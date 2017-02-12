@@ -16,7 +16,7 @@
 
 1. 平台登陆账号配置
 
-2. salt-apit配置
+2. salt-api配置
 
 修改文件: vi conf/app.conf 
 
