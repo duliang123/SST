@@ -60,16 +60,16 @@ func (this *SshController) Post(){
     wg.Add(len(tmp))
 
     for i := 0; i < len(tmp); i++ {
-      if len(tmp[i]) != 0 {
-        split := strings.Split(tmp[i], ":")
+        if len(tmp[i]) != 0 {
+            split := strings.Split(tmp[i], ":")
 
-        var ip_port string
-        ip_port   = fmt.Sprintf("%s:%s",split[0],split[1]) //"ip:22" fmt.Sprintf("%s:%s",split[0],split[1])
-        user     := split[2]
-        password := strings.TrimSpace(split[3])
+            var ip_port string
+            ip_port   = fmt.Sprintf("%s:%s",split[0],split[1]) //"ip:22" fmt.Sprintf("%s:%s",split[0],split[1])
+            user     := split[2]
+            password := strings.TrimSpace(split[3])
         
-        go ssh_cmd(ip_port, user, password, split[0], cmd, &wg)
-      }
+            go ssh_cmd(ip_port, user, password, split[0], cmd, &wg)
+        }
     }
     wg.Wait()
     fmt.Println(len(tmp))

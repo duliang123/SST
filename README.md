@@ -2,6 +2,11 @@
 
 -- 基于GO语言和Saltstack开发的WEB运维平台 author: duliang123
 
+---
+
+1. ** 一键安装方法:** sh sst_auto_install.sh (自动安装并运行，无需下方配置)
+
+2. ** 配置安装方法:** 如下方说明
 
 ### 说明:
 
@@ -43,7 +48,7 @@ cd SST && ./SST &
 
 
 **鸣谢：**
-雨落寒冰(北京) 曦晨(苏州) lock(上海)
+雨落寒冰(北京) 曦晨(苏州) lock(上海) 有P青年(南宁)
 
 ![image](https://github.com/duliang123/SST/blob/master/screenshot/screenshot1.jpg)
 ![image](https://github.com/duliang123/SST/blob/master/screenshot/screenshot.jpg)
