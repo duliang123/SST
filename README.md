@@ -4,9 +4,11 @@
 
 ---
 
-1. 一键安装方法: sh sst_auto_install.sh (自动安装并运行，无需下方配置)
+![image](https://github.com/duliang123/SST/blob/master/screenshot/screenshot_install.png)
 
-2. 配置安装方法: 如下方说明
+1. ** 一键安装方法:** sh sst_auto_install.sh (自动安装并运行，无需下方配置)
+
+2. ** 配置安装方法:** 如下方说明
 
 ### 说明:
 
