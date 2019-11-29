@@ -1,6 +1,6 @@
 # SST运维作业平台
 
--- 基于GO语言和Saltstack开发的WEB运维平台 author: duliang123
+-- 基于GO语言和Saltstack开发的WEB运维平台 Author: duliang
 
 ---
 
